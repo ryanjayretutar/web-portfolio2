@@ -227,3 +227,56 @@ section h1 {
     width: 100%;
   }
 }
+
+#experience {
+  padding-bottom: 12rem;
+}
+
+#experience .exp-header {
+  text-align: center;
+}
+#experience .exp-header h2 {
+  color: black;
+}
+
+#experience .exp-timeline {
+  max-width: 980px;
+}
+
+#experience .timeline-wrap {
+  position: relative;
+  margin-top: 1.5rem;
+  margin-bottom: 6rem;
+}
+#experience .timeline-wrap::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  left: 35%;
+  top: 0;
+}
+#experience .timeline-block {
+  position: relative;
+  padding-top: 1.5rem;
+}
+#experience .timeline-header {
+  float: left;
+  width: 35%;
+  padding-right: 90px;
+  text-align: right;
+}
+#experience .timeline-header h3 {
+  margin-bottom: 0;
+}
+#experience .timeline-header p {
+  font-family: "poppins-regular", sans-serif;
+  font-size: 1.6rem;
+  color: #888888;
+}
+#experience .timeline-content {
+  margin-left: 35%;
+  padding-left: 60px;
+}
