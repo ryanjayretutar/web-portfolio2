@@ -28,7 +28,7 @@ body, html {
   float: left;
   color: white;
   text-align: center;
-  padding: 12px;
+  padding: 15px;
   text-decoration: none;
   font-size: 18px; 
   line-height: 23px;
@@ -48,6 +48,7 @@ body, html {
 }
 .header-right {
   float: right;
+  padding-right: 40px;
 }
 @media screen and (max-width: 500px) {
   .header a {
@@ -61,7 +62,7 @@ body, html {
 }
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/web.jpeg");
-  height: 60%;
+  height: 80%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -111,10 +112,11 @@ body, html {
 
 .custom {
 	margin: 0;
-	background-color: #343A40;
+	background-color: #343a40;
 	color: white;
 	padding: 10px 10px 10px 10px;
 	border-radius: 5px;
+  
 }
 
 #experience .custom{
@@ -156,7 +158,7 @@ body, html {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 40%;
+  height: 36%;
   background-color: #343a40;
   color: white;
   text-align: center;
@@ -188,6 +190,15 @@ table, th, td {
   width: 50%;
   float: left;
 }
+.width-40r {
+  width: 40%;
+  float: right;
+
+}
+.width-40 {
+  width: 40%;
+  float: left;
+}
 #foot .column{
   box-shadow: none;
 }
@@ -199,6 +210,20 @@ table, th, td {
   background-color: #343a40;
   margin: 0;
 }
+
+#expectation.parallax{
+  border: none;
+  padding: 50px 40px 0px 40px;
+  margin: 0;
+  max-width: 100%;
+  background-image: url("../images/computer.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  height: 500px;
+  color: white; 
+}
+
 
 /*section h1 {
   animation-duration: 2s;
